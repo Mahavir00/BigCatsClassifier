@@ -131,21 +131,21 @@ class Prediction extends React.Component {
             className='analyze-button'
             type='button'
             onClick={this.sendToAnalyze}>{this.state.btnAnalyze}</button>
-          <button
-            id='analyze-button'
-            className='analyze-button'
-            type='button'
-            onClick={this.getRandoms}>{this.state.randomtxt}</button>
+          //<button
+            //id='analyze-button'
+            //className='analyze-button'
+            //type='button'
+            //onClick={this.getRandoms}>{this.state.randomtxt}</button>
         </div>
         <div className='predictionWrap'>
           <Image
             imgPicked={this.state.imgPicked}
             imgPickedRaw={this.state.imgPickedRaw}
             labelsresult={this.state.labelsresult} />
-          <Image
-            imgPicked={this.state.randoms}
-            imgPickedRaw={this.state.imgRandRaw}
-            labelsresult={this.state.randomResult} />
+          //<Image
+            //imgPicked={this.state.randoms}
+            //imgPickedRaw={this.state.imgRandRaw}
+            //labelsresult={this.state.randomResult} />
         </div>
       </div>
     )

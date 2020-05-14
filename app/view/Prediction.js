@@ -3,7 +3,7 @@ class Prediction extends React.Component {
     super(props);
     this.state = {
       selectedFile: null,
-      randomtxt: 'Random',
+      //randomtxt: 'Random',
       uploadLabel: 'Select an image to classify',
       btnAnalyze: 'Analyze',
       imgPickedRaw: '',
@@ -11,9 +11,9 @@ class Prediction extends React.Component {
       notifications: '',
       fileSelected: false,
       imgPicked: false,
-      randoms: false,
+      //randoms: false,
       analyzing: false,
-      gettingRandoms: false,
+      //gettingRandoms: false,
       randomResult: [],
       labelsresult: [],
     }
@@ -78,7 +78,7 @@ class Prediction extends React.Component {
     }
   }
 
-  getRandoms = (e) => {
+  /*getRandoms = (e) => {
     if (!this.state.gettingRandoms) {
       this.setState({
         randomtxt: "Obtaining...",
@@ -101,7 +101,7 @@ class Prediction extends React.Component {
         });
     } else {
       this.setState({ notifications: "Working on it!" })
-    }
+    }*/
 
 
   }
